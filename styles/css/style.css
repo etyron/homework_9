@@ -1,0 +1,289 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.display-none {
+  display: none;
+}
+
+body {
+  background: linear-gradient(to right, white 0%, #f6f6f6 47%, #ededed 100%);
+}
+
+section {
+  padding: 3.125rem 0;
+}
+
+p {
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  font: 1.5rem 'Roboto Slab', serif;
+  margin-bottom: 3.125rem;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 950px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+}
+span {
+  display: block;
+  margin-bottom: .625rem;
+  font: 1.5rem 'Roboto Slab', serif;
+}
+
+.invisible-text, .show-text, .btn-slide-down + p {
+  display: none;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #088A85;
+  margin-bottom: 2.125rem;
+}
+
+.has-class-p {
+  border: none;
+  color: #2A0A12;
+}
+.has-class-p-border {
+  border: 2px solid #0B0B61;
+}
+
+.author {
+  border: none;
+  color: #ffff00;
+}
+
+.index-li {
+  font-size: 1.75rem;
+}
+
+.small-indents {
+  margin-bottom: 1.75rem;
+}
+
+.link-nav {
+  font-size: 1.875rem;
+  text-decoration: none;
+  color: #088A85;
+}
+.link-nav:hover {
+  text-decoration: none;
+  color: #00cc99;
+}
+
+.item-card {
+  padding: 2rem 1rem;
+  max-width: 14.375rem;
+  width: 100%;
+  margin-bottom: 3.125rem;
+}
+.item-card-title {
+  color: #088A85;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.square {
+  width: 6.25rem;
+  height: 6.25rem;
+  border: 1px solid #ccc;
+}
+.square-list li {
+  margin-right: 1.75rem;
+}
+.square-list li:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  outline: none;
+  font: 1.5rem 'Roboto Slab', serif;
+  background: #00cc99;
+  padding: .5rem 1rem;
+  color: #fff;
+  min-width: 9rem;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn-add-class {
+  background: #5882FA;
+}
+.btn-remove-class {
+  background: #9F81F7;
+}
+.btn-toggle-class {
+  background: #FA5882;
+}
+.btn-alert-on-click {
+  background: #FF0040;
+}
+.btn-clone {
+  background: #848484;
+  margin-bottom: 1.25rem;
+}
+.btn-slide-up {
+  background: #0B0B61;
+}
+.btn-slide-down {
+  background: #2E2EFE;
+}
+.btn-slide-toggle {
+  background: #8A084B;
+}
+
+button {
+  outline: none;
+  box-shadow: none;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 420px) {
+  .btn {
+    margin-left: 30%;
+  }
+}
+.navbar-brand {
+  min-height: 10rem;
+}
+
+.navbar-nav li {
+  padding-bottom: .5rem;
+  border-bottom: 2px solid #000;
+  margin-bottom: 5px;
+}
+
+.form-info {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 30rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.875rem;
+}
+.form-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.form-info label {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+.form-info input {
+  outline: none;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+  padding: .5rem .7rem;
+  font-size: .75rem;
+}
+.form-info input:hover {
+  background: #ccc;
+  color: #fff;
+}
+.form-info select {
+  outline: none;
+  margin-bottom: .5rem;
+  width: 100%;
+  font-size: .625rem;
+  padding: .5rem;
+}
+.form-info select option {
+  font-size: .5rem;
+}
+.form-info .small-label {
+  font-size: .75rem;
+}
+.form-info .btn {
+  font-size: .75rem;
+  padding: .5rem .7rem;
+  min-width: none;
+}
+.form-info P {
+  font-size: .75rem;
+  margin-bottom: 1rem;
+}
+
+.border-none {
+  border: none;
+}

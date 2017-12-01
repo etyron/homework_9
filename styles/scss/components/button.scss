@@ -1,0 +1,53 @@
+.btn{
+  outline: none;
+  font:1.5rem 'Roboto Slab', serif;
+  background:$brand-color;
+  padding: .5rem 1rem;
+  color: $white-color;
+  min-width:9rem ;
+  &:focus{
+    box-shadow: none;
+  }
+  &-add-class{
+    background: #5882FA;
+  }
+  &-remove-class{
+    background: #9F81F7;
+  }
+  &-toggle-class{
+    background: #FA5882;
+  }
+  &-get-Attr{
+
+  }
+  &-set-Attr{
+
+  }
+  &-alert-on-click{
+    background: #FF0040;
+  }
+  &-clone{
+    background: #848484;
+    margin-bottom: 1.25rem;
+  }
+  &-slide{
+    &-up{
+      background: #0B0B61;
+    }
+    &-down{
+      background: #2E2EFE;
+    }
+    &-toggle{
+      background:#8A084B;
+    }
+  }
+}
+
+button{
+  outline: none;
+  box-shadow: none;
+  &:focus{
+    outline:none;
+    box-shadow: none;
+  }
+}

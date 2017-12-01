@@ -1,0 +1,57 @@
+.form-info{
+  background: #fff;
+  margin: 0 auto;
+  max-width:30rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.875rem;
+  h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  & label{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+  }
+  & input{
+    outline: none;
+    background: transparent;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    padding: .5rem .7rem;
+    font-size:.75rem;
+    &:hover{
+      background: #ccc;
+      color: #fff;
+    }
+  }
+  & select {
+    outline: none;
+    margin-bottom: .5rem;
+    width: 100%;
+    font-size: .625rem;
+    padding: .5rem;
+
+    & option{
+      font-size: .5rem;
+    }
+  }
+  & .small-label{
+    font-size: .75rem;
+  }
+  .btn{
+    font-size: .75rem;
+    padding: .5rem .7rem;
+    min-width: none;
+  }
+  P{
+    font-size: .75rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.border-none{
+  border: none;
+}

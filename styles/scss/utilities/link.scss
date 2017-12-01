@@ -1,0 +1,9 @@
+.link-nav{
+  font-size: 1.875rem;
+  text-decoration: none;
+  color:$brand-color-dark;
+  &:hover{
+    text-decoration: none;
+    color: $brand-color;
+  }
+}

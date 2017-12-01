@@ -1,0 +1,23 @@
+.item-card{
+  padding: 2rem 1rem;
+  max-width:14.375rem;
+  width:100%;
+  margin-bottom:3.125rem;
+  &-title{
+    color: $brand-color-dark;
+    font-size:2rem;
+    margin-bottom:2rem;
+  }
+}
+
+.square{
+  width:6.25rem;
+  height: 6.25rem;
+  border:1px solid #ccc;
+  &-list li{
+    margin-right: 1.75rem;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

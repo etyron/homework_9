@@ -1,0 +1,32 @@
+span{
+  display: block;
+  margin-bottom:.625rem;
+  font:1.5rem 'Roboto Slab', serif;
+}
+.invisible-text,.show-text,.btn-slide-down + p{
+   display: none;
+ }
+
+.section-title{
+  text-align: center;
+  font-size: 3rem;
+  color:$brand-color-dark;
+  margin-bottom:2.125rem;
+}
+
+.has-class-p{
+  border:none;
+  color:#2A0A12;
+  &-border{
+    border:2px solid #0B0B61;
+  }
+}
+
+.author{
+  border:none;
+  color:#ffff00;
+}
+
+.index-li{
+  font-size:1.75rem;
+}

@@ -66,10 +66,10 @@ $( document ).ready( function () {
             var arr  = $.map(this.attributes, function (attribute) {
                 return attribute.name + ' = ' + attribute.value;
             });
-        });
         var offset = $(this).offset();
         console.log($( this ).width() + "," + $( this ).height() + "," + offset.left + "," + offset.top + ","
             + arr + "," + $(this).parent().prop('tagName') + "," + $(this).siblings() + "," + $( this ).text());
+        });
     });
 
     $(".btn-detach").on("click", function () {
