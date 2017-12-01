@@ -78,6 +78,11 @@ p {
   margin-bottom: 3.125rem;
 }
 
+.delete-img {
+  max-width: 800px;
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -204,6 +209,9 @@ span {
 }
 .btn-slide-toggle {
   background: #8A084B;
+}
+.btn-slide-remove-attr {
+  background: #01DF3A;
 }
 
 button {

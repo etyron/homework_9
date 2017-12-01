@@ -68,10 +68,26 @@ $( document ).ready( function () {
             });
         var offset = $(this).offset();
         console.log($( this ).width() + "," + $( this ).height() + "," + offset.left + "," + offset.top + ","
-            + arr + "," + $(this).parent().prop('tagName') + "," + $(this).siblings() + "," + $( this ).text());
+            + arr + "," +  $(this).parent().attr('class') + "," + $(this).after().attr('class') + "," + $(this).next().attr('class') + "," + $( this ).text());
         });
     });
 
+    $(".btn-remove-attr").on("click", function () {
+        $(this).removeAttr("class");
+    })
+
+    $(window).on("resize", function () {
+        $("html").css("background-color", "#ffccff");
+    });
+
+    $(".btn-scroll-top").on("click", function () {
+        $(window).scrollTop(0);
+    });
+    
+    $(".btn-remove").on("click", function () {
+        $(".delete-img").remove();
+    })
+    
     $(".btn-detach").on("click", function () {
         $(".author").detach();
     });
